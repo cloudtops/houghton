@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10410 NE 58th Street | Kirkland, Washington | Val Burmester</title>
+<meta name="description" content="Custom craftsmanship &amp; thoughtful design. A 6,310 sq ft residence on Lake Washington in Kirkland, WA. Offered at $6,300,000 by Val Burmester, Realogics Sotheby's International Realty.">
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#022349">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="10410 NE 58th Street | Kirkland, Washington">
+<meta property="og:description" content="Custom craftsmanship &amp; thoughtful design. 6,310 sq ft &middot; 5 bed &middot; 5 bath &middot; offered at $6,300,000.">
+<meta property="og:image" content="/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="10410 NE 58th Street | Kirkland, Washington">
+<meta name="twitter:description" content="Custom craftsmanship &amp; thoughtful design. 6,310 sq ft &middot; 5 bed &middot; 5 bath &middot; offered at $6,300,000.">
+<meta name="twitter:image" content="/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --navy:#022349;
+    --navy-line:#1c3e63;
+    --ink:#2b2a26;
+    --ink-muted:#5c584f;
+    --muted:#948d7c;
+    --hairline:#d7d0bd;
+    --cream:#f5f1e4;
+    --paper:#ffffff;
+    --serif:'Playfair Display', Georgia, serif;
+    --sans:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:var(--sans); color:var(--ink); background:var(--paper); line-height:1.6; -webkit-font-smoothing:antialiased;}
+  img{display:block; max-width:100%; height:auto;}
+  a{color:inherit; text-decoration:none;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 32px;}
+  .tag{
+    letter-spacing:.18em; text-transform:uppercase; font-size:.72rem; color:var(--muted); font-weight:500;
+  }
+  .eyebrow{letter-spacing:.16em; text-transform:uppercase; font-size:.78rem; color:var(--muted); font-weight:600; margin-bottom:14px;}
+  h1,h2,h3{font-family:var(--serif); font-weight:600; color:var(--ink); line-height:1.15;}
+  h2{font-size:clamp(1.7rem, 3vw, 2.4rem); margin-bottom:22px;}
+  .rule{width:56px; height:2px; background:var(--ink); margin-bottom:26px;}
+  p{color:var(--ink-muted); font-size:1rem;}
+  .btn{
+    display:inline-block; padding:14px 30px; background:var(--navy); color:#fff; font-size:.82rem;
+    letter-spacing:.1em; text-transform:uppercase; font-weight:600; border-radius:2px; transition:opacity .2s;
+  }
+  .btn:hover{opacity:.85;}
+  .btn-outline{
+    display:inline-block; padding:13px 28px; border:1px solid rgba(255,255,255,.7); color:#fff; font-size:.78rem;
+    letter-spacing:.1em; text-transform:uppercase; font-weight:600; border-radius:2px;
+  }
+
+  /* ---------- NAV ---------- */
+  header{
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:20px 32px; transition:background .3s, box-shadow .3s, padding .3s;
+    background:linear-gradient(180deg, rgba(0,0,0,.42) 0%, rgba(0,0,0,0) 100%);
+  }
+  header.scrolled{background:rgba(255,255,255,.96); box-shadow:0 1px 0 var(--hairline); padding:12px 32px; backdrop-filter:blur(6px);}
+  header .brand{display:flex; align-items:center; gap:10px;}
+  header .brand img{height:30px; width:auto; filter:brightness(0) invert(1); transition:filter .3s;}
+  header.scrolled .brand img{filter:none;}
+  header nav{display:flex; align-items:center; gap:30px;}
+  header nav a{font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; color:#fff; font-weight:500; transition:color .3s;}
+  header.scrolled nav a{color:var(--ink);}
+  header nav a.phone{color:#fff;}
+  header.scrolled nav a.phone{color:var(--ink);}
+  .nav-toggle{display:none;}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative; height:100vh; min-height:560px; display:flex; align-items:flex-end;
+    background:#111 url('images/exterior-front.jpg') center/cover no-repeat;
+  }
+  .hero::after{
+    content:''; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(2,8,20,.25) 0%, rgba(2,8,20,.15) 35%, rgba(2,8,20,.75) 100%);
+  }
+  .hero-content{position:relative; z-index:2; padding:0 32px 72px; width:100%; color:#fff;}
+  .hero-content .tag{color:#e9e4d6; margin-bottom:18px;}
+  .hero-content h1{
+    font-size:clamp(2.1rem, 5vw, 3.6rem); color:#fff; max-width:820px; margin-bottom:16px; font-weight:600;
+  }
+  .hero-content .addr{font-size:1.05rem; color:#e9e4d6; margin-bottom:34px; font-family:var(--serif); font-style:italic;}
+  .hero-actions{display:flex; gap:16px; flex-wrap:wrap;}
+
+  /* ---------- STATS BAND ---------- */
+  .stats{background:var(--navy); color:#fff;}
+  .stats-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); max-width:1180px; margin:0 auto;
+  }
+  .stat{
+    text-align:center; padding:34px 18px 22px; border-right:1px solid var(--navy-line); border-bottom:1px solid var(--navy-line);
+  }
+  .stat:nth-child(3n){border-right:none;}
+  .stat .val{font-family:var(--serif); font-weight:700; font-size:1.7rem;}
+  .stat .lbl{font-size:.74rem; letter-spacing:.08em; text-transform:uppercase; color:#a9a9b8; margin-top:6px;}
+  .highlights{
+    grid-column:1 / -1; text-align:center; padding:20px 24px 26px; font-size:.86rem; color:#cfd0da;
+    letter-spacing:.01em;
+  }
+  .highlights span{margin:0 10px; display:inline-block;}
+
+  /* ---------- ESTABLISHING BANNER ---------- */
+  .banner{position:relative; height:56vh; min-height:340px; background:#111 url('images/aerial-lake-view.jpg') center/cover no-repeat;}
+  .banner::after{content:''; position:absolute; inset:0; background:rgba(2,8,20,.18);}
+  .banner-caption{
+    position:absolute; bottom:26px; left:0; right:0; text-align:center; z-index:2; color:#f2efe4;
+    font-family:var(--serif); font-style:italic; font-size:1rem; letter-spacing:.02em;
+  }
+
+  /* ---------- OVERVIEW ---------- */
+  .overview{padding:96px 0 88px; text-align:center;}
+  .overview p{max-width:720px; margin:0 auto; font-size:1.08rem; line-height:1.8;}
+
+  /* ---------- SECTION ---------- */
+  .section{padding:80px 0;}
+  .section.alt{background:#faf8f3;}
+  .section-grid{display:grid; grid-template-columns:1.1fr .9fr; gap:64px; align-items:center;}
+  .section-grid.reverse .copy{order:2;}
+  .section-grid.reverse .media{order:1;}
+  .media img{border:1px solid var(--hairline); width:100%; object-fit:cover;}
+  .media.pair{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .media.pair img{height:260px;}
+  .copy p + p{margin-top:14px;}
+  .quote{
+    margin-top:22px; padding-left:18px; border-left:2px solid var(--hairline); font-family:var(--serif);
+    font-style:italic; color:var(--ink-muted); font-size:.98rem;
+  }
+  .single-photo{margin-bottom:40px;}
+  .single-photo img{width:100%; height:52vh; min-height:320px; object-fit:cover; border:1px solid var(--hairline);}
+
+  /* spec cards for Additional Spaces */
+  .spec-card{border:1px solid var(--hairline); background:var(--cream); padding:44px; margin-top:8px;}
+  .spec-grid{display:grid; grid-template-columns:1fr 1fr; gap:36px 48px;}
+  .spec-item h4{font-family:var(--serif); font-size:1rem; font-weight:600; margin-bottom:6px; position:relative; padding-bottom:8px;}
+  .spec-item h4::after{content:''; position:absolute; left:0; bottom:0; width:28px; height:1px; background:var(--ink);}
+  .spec-item p{font-size:.94rem;}
+
+  /* ---------- GALLERY ---------- */
+  .gallery{padding:88px 0;}
+  .gallery-grid{
+    display:grid; grid-template-columns:repeat(4, 1fr); gap:14px;
+  }
+  .gallery-grid img{
+    width:100%; height:220px; object-fit:cover; cursor:pointer; border:1px solid var(--hairline);
+    transition:opacity .2s;
+  }
+  .gallery-grid img:hover{opacity:.85;}
+
+  /* lightbox */
+  .lightbox{
+    position:fixed; inset:0; background:rgba(2,8,20,.92); z-index:200; display:none;
+    align-items:center; justify-content:center; padding:40px;
+  }
+  .lightbox.open{display:flex;}
+  .lightbox img{max-width:92vw; max-height:86vh; object-fit:contain; border:none;}
+  .lightbox-close{
+    position:absolute; top:26px; right:34px; color:#fff; font-size:1.6rem; cursor:pointer; font-family:var(--serif);
+  }
+
+  /* ---------- CONTACT ---------- */
+  .contact{background:var(--navy); color:#fff; padding:90px 0;}
+  .contact-grid{display:grid; grid-template-columns:auto 1fr auto; gap:40px; align-items:center;}
+  .agent-photo{width:120px; height:120px; border-radius:50%; object-fit:cover; border:3px solid rgba(255,255,255,.15);}
+  .contact h3{color:#fff; font-size:1.5rem; margin-bottom:4px;}
+  .contact .role{color:#b9bccb; font-style:italic; font-family:var(--serif); margin-bottom:14px; font-size:.95rem;}
+  .contact .lines a{display:block; color:#e9e4d6; font-size:.96rem; margin-bottom:4px;}
+  .contact-cta{text-align:right;}
+  .contact-logo{height:34px; width:auto; filter:brightness(0) invert(1); margin-bottom:18px;}
+
+  /* ---------- FOOTER ---------- */
+  footer{padding:36px 0; text-align:center; background:#fff;}
+  footer p{font-size:.78rem; color:var(--muted);}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 900px){
+    header nav{position:fixed; top:0; right:0; height:100vh; width:78%; max-width:320px; background:var(--paper);
+      flex-direction:column; align-items:flex-start; justify-content:flex-start; padding:100px 32px; gap:26px;
+      transform:translateX(100%); transition:transform .3s; box-shadow:-4px 0 24px rgba(0,0,0,.12);}
+    header nav.open{transform:translateX(0);}
+    header nav a{color:var(--ink) !important;}
+    .nav-toggle{
+      display:block; position:relative; z-index:101; background:none; border:none; cursor:pointer; padding:6px;
+    }
+    .nav-toggle span{display:block; width:24px; height:2px; background:#fff; margin:5px 0; transition:.3s;}
+    header.scrolled .nav-toggle span{background:var(--ink);}
+    .nav-toggle.open span{background:var(--ink);}
+
+    .section-grid{grid-template-columns:1fr; gap:32px;}
+    .section-grid.reverse .copy{order:1;}
+    .section-grid.reverse .media{order:2;}
+    .stats-grid{grid-template-columns:repeat(2,1fr);}
+    .stat:nth-child(3n){border-right:1px solid var(--navy-line);}
+    .stat:nth-child(2n){border-right:none;}
+    .gallery-grid{grid-template-columns:repeat(2,1fr);}
+    .contact-grid{grid-template-columns:1fr; text-align:center;}
+    .contact-cta{text-align:center;}
+    .spec-grid{grid-template-columns:1fr;}
+    .media.pair{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header id="siteHeader">
+  <a href="#top" class="brand"><img src="images/logo.png" alt="Realogics Sotheby's International Realty"></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  <nav id="siteNav">
+    <a href="#overview">Overview</a>
+    <a href="#living">Interiors</a>
+    <a href="#gardens">Grounds</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact" class="phone">(425) 652-2335</a>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-content">
+    <div class="tag">10410 NE 58th Street &middot; Kirkland, Washington</div>
+    <h1>Custom Craftsmanship &amp; Thoughtful Design</h1>
+    <div class="addr">Offered at $6,300,000</div>
+    <div class="hero-actions">
+      <a href="#contact" class="btn">Schedule a Private Tour</a>
+      <a href="#gallery" class="btn-outline">View Gallery</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat"><div class="val">6,310</div><div class="lbl">Square Feet</div></div>
+    <div class="stat"><div class="val">5</div><div class="lbl">Bed</div></div>
+    <div class="stat"><div class="val">2558522</div><div class="lbl">MLS #</div></div>
+    <div class="stat"><div class="val">0.32</div><div class="lbl">Acre Lot</div></div>
+    <div class="stat"><div class="val">5</div><div class="lbl">Bath</div></div>
+    <div class="stat"><div class="val">$6.3M</div><div class="lbl">Price</div></div>
+    <div class="highlights">
+      <span>Shak&uacute;ff Chandelier</span>&middot;
+      <span>Lake &amp; Mountain Views</span>&middot;
+      <span>Chef's Kitchen</span>&middot;
+      <span>Private Greenhouse</span>&middot;
+      <span>4-Car Tandem Garage</span>&middot;
+      <span>Main-Floor Primary Suite</span>
+    </div>
+  </div>
+</section>
+
+<div class="banner">
+  <div class="banner-caption">Perched above Lake Washington, with the Seattle skyline beyond</div>
+</div>
+
+<section class="overview" id="overview">
+  <div class="wrap">
+    <div class="eyebrow">Overview</div>
+    <p>Set above Lake Washington in Kirkland, this custom residence pairs sweeping lake and mountain views with thoughtful, high-end craftsmanship throughout its 6,310 square feet. Five bedrooms and five bathrooms are arranged across a main-floor primary suite, private guest wings, and generous lower-level living &mdash; all finished with the same quiet attention to detail, inside and out.</p>
+  </div>
+</section>
+
+<section class="section" id="living">
+  <div class="wrap">
+    <div class="section-grid">
+      <div class="media">
+        <img src="images/living-room.jpg" alt="Main living area with linear fireplace and lake views">
+      </div>
+      <div class="copy">
+        <div class="eyebrow">Main Living Area</div>
+        <h2>Great Room</h2>
+        <p>The great room rises to 12-foot ceilings beneath tray and low-voltage lighting, its solid doors and custom shades framing a linear fireplace set into a wall of smoky slate. Surround sound carries throughout, and a 10-by-5 sliding door wall opens to the patio and view beyond.</p>
+        <div class="quote">Joseph Sidof established Shak&uacute;ff in 2007 after working in the costume jewelry industry and developing a love for glassblowing. Working closely with residential and commercial clients, Shak&uacute;ff lighting aims to explore and enhance the natural beauty of light, creating custom light systems through impeccable craftsmanship and innovative artistry.</div>
+      </div>
+    </div>
+    <div class="media pair" style="margin-top:56px;">
+      <img src="images/dining-chandelier-1.jpg" alt="Dining room beneath the Shakuff chandelier">
+      <img src="images/dining-chandelier-2.jpg" alt="Dining area with lake and mountain views">
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="section-grid reverse">
+      <div class="media">
+        <img src="images/kitchen-1.jpg" alt="Chef's kitchen with Wolf range and custom cabinetry">
+      </div>
+      <div class="copy">
+        <div class="eyebrow">Kitchen</div>
+        <h2>Chef's Kitchen</h2>
+        <p>Italian Carrera gold countertops meet Sun Valley bronze hardware and an oversized island, anchored by a Sub-Zero refrigerator and freezer, two Miele dishwashers, and an eight-burner Wolf range with double ovens. On-demand hot water runs throughout, alongside a built-in buffet, a butler's wine pantry, and a walk-in pantry fitted for 142 bottles.</p>
+      </div>
+    </div>
+    <div class="media" style="margin-top:56px;">
+      <img src="images/kitchen-2.jpg" alt="Kitchen open to the living area" style="height:340px; object-fit:cover;">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-grid">
+      <div class="media">
+        <img src="images/primary-suite.jpg" alt="Primary suite bathroom with soaking tub">
+      </div>
+      <div class="copy">
+        <div class="eyebrow">Primary Suite</div>
+        <h2>A Private Wing</h2>
+        <p>Heated floors carry through a primary suite centered on a spacious dual-head shower, TOTO toilet and bidet, and double vanities set beneath custom lighting and Grohe fixtures. A soaking spa tub anchors the room, and a custom-fitted closet with built-in shelving and dressers completes the space. Sliding doors open directly onto the patio and the view beyond.</p>
+        <div class="quote">Every finish in the suite was chosen to frame the water and mountains beyond &mdash; quiet, private, and entirely its own wing of the home.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="eyebrow">Additional Spaces</div>
+    <h2>Every Room, Considered</h2>
+    <div class="single-photo">
+      <img src="images/aerial-rear.jpg" alt="Aerial view of the rear of the home, deck, and greenhouse">
+    </div>
+    <div class="spec-card">
+      <div class="spec-grid">
+        <div class="spec-item">
+          <h4>Main Floor Ensuite Bedrooms</h4>
+          <p>Two private suites, each with heated floors and its own bath.</p>
+        </div>
+        <div class="spec-item">
+          <h4>Lower Living</h4>
+          <p>9-foot ceilings throughout; two guest suites share a Jack-and-Jill bath, alongside a bonus room plumbed for a second kitchen and a dedicated Christmas closet.</p>
+        </div>
+        <div class="spec-item">
+          <h4>Main Floor Library / Office</h4>
+          <p>Built-in cabinetry and closets for a quiet, well-appointed workspace.</p>
+        </div>
+        <div class="spec-item">
+          <h4>Shop / 4th Tandem Garage</h4>
+          <p>Built-in vacuum and filter systems, a utility sink, 220V and 110V power, and a separate office with its own exterior door.</p>
+        </div>
+        <div class="spec-item">
+          <h4>Main Floor Laundry Room</h4>
+          <p>A dedicated gift-wrapping center, utility sink, and abundant storage.</p>
+        </div>
+        <div class="spec-item">
+          <h4>Other Details</h4>
+          <p>Three-panel solid wood doors throughout, a mechanical room with two HVAC systems, and an on-demand hot water system.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="gardens">
+  <div class="wrap">
+    <div class="section-grid">
+      <div class="media">
+        <img src="images/exterior-rear.jpg" alt="Rear exterior with covered deck and greenhouse">
+      </div>
+      <div class="copy">
+        <div class="eyebrow">Home &amp; Gardens</div>
+        <h2>Grounds &amp; Gardens</h2>
+        <p>The grounds are finished in real stucco beneath a Presidential 50-year roof, with gorgeous landscaping surrounding vegetable and rose gardens and a private greenhouse.</p>
+        <p>Two decks extend the living space outdoors, warmed by heat lamps and a fireplace and stocked with an ice maker for effortless entertaining, all beneath a covered porch with sweeping views over the water.</p>
+      </div>
+    </div>
+    <div class="media pair" style="margin-top:56px;">
+      <img src="images/garden-1.jpg" alt="Private greenhouse and garden">
+      <img src="images/garden-2.jpg" alt="Covered deck and outdoor living space">
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="eyebrow" style="text-align:center;">Gallery</div>
+    <h2 style="text-align:center;">The Full Tour</h2>
+    <div class="rule" style="margin-left:auto; margin-right:auto;"></div>
+    <div class="gallery-grid" id="galleryGrid">
+      <img src="images/exterior-front.jpg" alt="Front exterior">
+      <img src="images/exterior-front-detail.jpg" alt="Front exterior detail">
+      <img src="images/aerial-lake-view.jpg" alt="Aerial view with lake and skyline">
+      <img src="images/aerial-rear.jpg" alt="Aerial view of the rear of the home">
+      <img src="images/living-room.jpg" alt="Main living area">
+      <img src="images/dining-chandelier-1.jpg" alt="Dining room chandelier">
+      <img src="images/dining-chandelier-2.jpg" alt="Dining area">
+      <img src="images/kitchen-1.jpg" alt="Kitchen">
+      <img src="images/kitchen-2.jpg" alt="Kitchen open to living area">
+      <img src="images/primary-suite.jpg" alt="Primary suite bathroom">
+      <img src="images/exterior-rear.jpg" alt="Rear exterior">
+      <img src="images/garden-1.jpg" alt="Greenhouse and garden">
+      <img src="images/garden-2.jpg" alt="Covered deck">
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-close" id="lightboxClose">&times;</div>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <img src="images/val-burmester.jpg" alt="Val Burmester" class="agent-photo">
+      <div>
+        <h3>Val Burmester</h3>
+        <div class="role">Listing Agent</div>
+        <div class="lines">
+          <a href="tel:14256522335">(425) 652-2335</a>
+          <a href="mailto:val.burmester@rsir.com">val.burmester@rsir.com</a>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <img src="images/logo.png" alt="Realogics Sotheby's International Realty" class="contact-logo">
+        <div><a href="mailto:val.burmester@rsir.com" class="btn">Contact Val</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>10410 NE 58th Street, Kirkland, WA 98033 &middot; MLS #2558522 &middot; Offered at $6,300,000</p>
+    <p style="margin-top:6px;">Presented by Val Burmester, Realogics Sotheby's International Realty. Information deemed reliable but not guaranteed.</p>
+  </div>
+</footer>
+
+<script>
+  // header solid-on-scroll
+  const header = document.getElementById('siteHeader');
+  const onScroll = () => {
+    if (window.scrollY > 40) header.classList.add('scrolled');
+    else header.classList.remove('scrolled');
+  };
+  window.addEventListener('scroll', onScroll);
+  onScroll();
+
+  // mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const siteNav = document.getElementById('siteNav');
+  navToggle.addEventListener('click', () => {
+    navToggle.classList.toggle('open');
+    siteNav.classList.toggle('open');
+  });
+  siteNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navToggle.classList.remove('open');
+    siteNav.classList.remove('open');
+  }));
+
+  // lightbox
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  document.querySelectorAll('#galleryGrid img').forEach(img => {
+    img.addEventListener('click', () => {
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightbox.classList.add('open');
+    });
+  });
+  document.getElementById('lightboxClose').addEventListener('click', () => lightbox.classList.remove('open'));
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) lightbox.classList.remove('open'); });
+</script>
+
+</body>
+</html>
